@@ -8,9 +8,16 @@ import HealthDashboard from '@/components/HealthDashboard'
 import NutritionRecipes from '@/components/NutritionRecipes'
 import SupplementHub from '@/components/SupplementHub'
 import AIAgents from '@/components/AIAgents'
+import DesignSystemDemo from '@/components/DesignSystemDemo'
 import { getCurrentUser, onAuthStateChange, type AuthUser } from '@/lib/auth'
 
 export default function Home() {
+  // 暂时显示设计系统演示，您可以根据需要切换回原来的逻辑
+  const showDesignDemo = true;
+  
+  if (showDesignDemo) {
+    return <DesignSystemDemo />
+  }
   const [user, setUser] = useState<AuthUser | null>(null)
   const [loading, setLoading] = useState(true)
   const [authMode, setAuthMode] = useState<'signin' | 'signup'>('signin')
