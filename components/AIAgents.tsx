@@ -25,7 +25,7 @@ interface AIAgent {
   id: string
   name: string
   description: string
-  type: 'life_coach' | 'knowledge_curator' | 'task_manager' | 'wellness_advisor'
+  type: 'life_coach' | 'knowledge_curator' | 'task_manager' | 'wellness_advisor' | 'nutritionist' | 'pharmacist' | 'physician' | 'trainer'
   capabilities: string[]
   icon: any
   color: string

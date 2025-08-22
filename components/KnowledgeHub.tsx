@@ -18,6 +18,7 @@ import {
   Video,
   Headphones,
   Book,
+  BookOpen,
   Wrench,
   GraduationCap,
   TrendingUp,

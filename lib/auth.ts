@@ -1,12 +1,8 @@
 import { supabase } from './supabase'
 import type { User } from '@supabase/supabase-js'
 
-export interface AuthUser extends User {
-  user_metadata?: {
-    name?: string
-    avatar_url?: string
-  }
-}
+// 直接使用 User 类型，因为它已经包含所有需要的字段
+export type AuthUser = User
 
 // 登录函数
 export async function signIn(email: string, password: string) {
