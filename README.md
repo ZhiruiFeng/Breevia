@@ -1,6 +1,6 @@
 # Breevia - 个人定制养生平台
 
-一个基于 Next.js、Tailwind CSS 和 Supabase 构建的个人定制养生平台，专注于提供个性化食谱、补剂推荐和医学级健康方案。
+一个基于 Next.js、Tailwind CSS 和 Supabase 构建的个人健康追踪与定制养生平台，专注于提供个性化健康日志、食谱推荐、补剂管理和医学级健康方案。
 
 ## ✨ 核心功能
 
@@ -9,6 +9,11 @@
 - 今日营养摄入和补剂服用提醒
 - 健康计划进度跟踪
 - 个性化健康建议展示
+
+### 📊 健康追踪日志
+- 记录每日体重、心情、睡眠质量等
+- 简易表单支持日期、体重、心情和备注录入
+- 查看历史趋势和备注
 
 ### 🍽️ 定制食谱系统
 - 基于个人体质和健康目标的食谱推荐
@@ -56,6 +61,7 @@ Breevia/
 │   ├── AuthForm.tsx       # 认证表单
 │   ├── Sidebar.tsx        # 侧边导航栏
 │   ├── HealthDashboard.tsx      # 健康仪表板
+│   ├── HealthTracker.tsx       # 健康记录
 │   ├── NutritionRecipes.tsx     # 营养食谱
 │   ├── SupplementHub.tsx   # 智能补剂
 │   └── AIAgents.tsx       # AI 健康顾问

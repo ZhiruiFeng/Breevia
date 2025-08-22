@@ -28,6 +28,7 @@ interface SidebarProps {
 
 const menuItems = [
   { id: 'dashboard', label: '健康仪表板', icon: Home },
+  { id: 'health-logs', label: '健康记录', icon: Activity },
   { id: 'recipes', label: '营养食谱', icon: ChefHat },
   { id: 'supplements', label: '智能补剂', icon: Pill },
   { id: 'health-plans', label: '健康方案', icon: FileText },
